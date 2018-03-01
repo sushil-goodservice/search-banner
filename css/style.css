@@ -1,0 +1,42 @@
+.container-fluid.bg {
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.6)), url(../images/header-bg.jpg) no-repeat center;
+    height: 80vh;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+}
+.min-h {
+    min-height: 100%;
+}
+.input-custom {
+    background-color: rgba(222,222,222, 0.7);
+    border-radius: 2px;
+    color: #fff;
+    border: none;
+    border-radius: 2px 0px 0px 2px !important;
+    padding-left: 40px !important;
+}
+.input-custom:focus, .input-custom:active {
+    background-color: rgba(222,222,222, 0.7);
+} 
+.input-group {
+    position: relative;
+}
+.input-group .form-control {
+    margin: 0;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+.icon-font {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: #333;
+    z-index: 1;
+    border-radius: 50%;
+    line-height: 1.7;
+    left: -10px;
+    top: 12px;
+
+}
+.icon-font i {
+    color: white;
+}

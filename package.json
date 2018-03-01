@@ -1,0 +1,14 @@
+{
+  "name": "sarch-banner",
+  "version": "1.0.0",
+  "description": "This project is used to design search bar using MDB framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sushil",
+  "license": "ISC",
+  "devDependencies": {
+    "mdbootstrap": "^4.5.0"
+  }
+}
